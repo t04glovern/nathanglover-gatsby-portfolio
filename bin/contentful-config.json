@@ -1,0 +1,1527 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "socialLink",
+        "type": "ContentType",
+        "createdAt": "2019-06-23T06:01:34.391Z",
+        "updatedAt": "2019-06-23T06:01:39.373Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2019-06-23T06:01:39.373Z",
+        "firstPublishedAt": "2019-06-23T06:01:39.373Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Social Link",
+      "description": "Social Link to display with a font awesome icon.",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "fontAwesomeIcon",
+          "name": "Font Awesome Icon",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "project",
+        "type": "ContentType",
+        "createdAt": "2019-06-23T06:01:34.392Z",
+        "updatedAt": "2019-06-23T06:01:38.591Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2019-06-23T06:01:38.591Z",
+        "firstPublishedAt": "2019-06-23T06:01:38.591Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Project",
+      "description": "Project description",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "publishedDate",
+          "name": "PublishedDate",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "logo",
+          "name": "Logo",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "repositoryUrl",
+          "name": "RepositoryUrl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "projectUrl",
+          "name": "ProjectUrl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "about",
+        "type": "ContentType",
+        "createdAt": "2019-06-23T06:01:34.437Z",
+        "updatedAt": "2019-06-23T06:01:40.110Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2019-06-23T06:01:40.110Z",
+        "firstPublishedAt": "2019-06-23T06:01:40.110Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "About",
+      "description": "All information related to personal data.",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "roles",
+          "name": "Roles",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "socialLinks",
+          "name": "Social Links",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "socialLink"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "profile",
+          "name": "Profile",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "aboutMe",
+          "name": "About me",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "mediumUser",
+          "name": "Medium User",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "projects",
+          "name": "Projects",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "project"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "mzbnk5hiuv68",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2019-06-23T06:01:39.508Z",
+        "createdBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2019-06-23T06:01:42.016Z",
+        "updatedBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "socialLink",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "url",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "fontAwesomeIcon",
+          "widgetId": "singleLine"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "mzbnk5hiuv68",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2019-06-23T06:01:38.744Z",
+        "createdBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2019-06-23T06:01:41.903Z",
+        "updatedBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "project",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "publishedDate",
+          "widgetId": "datePicker"
+        },
+        {
+          "fieldId": "logo",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "repositoryUrl",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "projectUrl",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "type",
+          "widgetId": "singleLine"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "mzbnk5hiuv68",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2019-06-23T06:01:40.276Z",
+        "createdBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2019-06-23T06:01:41.398Z",
+        "updatedBy": {
+          "sys": {
+            "id": "23y4Jh1fJROZF5LYCrpwZE",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "about",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "roles",
+          "widgetId": "tagEditor"
+        },
+        {
+          "fieldId": "socialLinks",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor"
+        },
+        {
+          "fieldId": "profile",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "aboutMe",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "mediumUser",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "projects",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "5paxSRHbAkmgMc4WSW8S66",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:50.463Z",
+        "updatedAt": "2019-06-23T10:50:29.887Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2019-06-23T10:50:29.887Z",
+        "firstPublishedAt": "2019-06-23T06:01:57.518Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "CatBox"
+        },
+        "publishedDate": {
+          "en-US": "2018-04-04T00:00+00:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3AorRmtWOsGQ4o8gK0YWKG"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/t04glovern/catbox"
+        },
+        "description": {
+          "en-US": "🙀 A Cat adoption app that displays cats that are up for adoption, utilising Cloud Firestore, Firebase Functions and Google Sign In."
+        },
+        "projectUrl": {
+          "en-US": "https://github.com/t04glovern/catbox"
+        },
+        "type": {
+          "en-US": "Flutter"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "2GKNR2f4z6IwAg6a2MmKCc",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:50.522Z",
+        "updatedAt": "2019-06-23T10:49:50.043Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2019-06-23T10:49:50.043Z",
+        "firstPublishedAt": "2019-06-23T06:01:56.811Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Stubber"
+        },
+        "publishedDate": {
+          "en-US": "2018-07-18T00:00+00:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6rkOXCpyvuekYIgy6U6gGu"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/t04glovern/stubber.space"
+        },
+        "description": {
+          "en-US": "🎟 Deterring ticket scalping with digitally traceable ticket sales on the blockchain."
+        },
+        "projectUrl": {
+          "en-US": "https://github.com/t04glovern/stubber.space"
+        },
+        "type": {
+          "en-US": "Blockchain"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "4SrlLN9bt6Yew2UyGgM06a",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:50.932Z",
+        "updatedAt": "2019-06-23T06:03:46.742Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2019-06-23T06:03:46.742Z",
+        "firstPublishedAt": "2019-06-23T06:01:52.110Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Github"
+        },
+        "url": {
+          "en-US": "https://github.com/t04glovern"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "github"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "6Y7EIx73nUCWuoIWcsuM00",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:50.980Z",
+        "updatedAt": "2019-06-23T10:56:31.750Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2019-06-23T10:56:31.750Z",
+        "firstPublishedAt": "2019-06-23T06:01:55.656Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "MyCity"
+        },
+        "publishedDate": {
+          "en-US": "2019-04-30T00:00+00:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "u3Um4zkMrAaQioyq4oSIW"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/t04glovern/f8-my-city-ui"
+        },
+        "description": {
+          "en-US": "MyCity will play a vital role in facilitating community participation in the reporting of problems found throughout the community."
+        },
+        "projectUrl": {
+          "en-US": "https://devpost.com/software/my-city"
+        },
+        "type": {
+          "en-US": "Hackathon"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "114ApRkJZq640w8G2GwM8w",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:51.035Z",
+        "updatedAt": "2019-06-23T06:15:06.798Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2019-06-23T06:15:06.798Z",
+        "firstPublishedAt": "2019-06-23T06:01:54.323Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Contact me"
+        },
+        "url": {
+          "en-US": "mailto:nathan@glovers.id.au"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "envelope"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "4J6WFTjoMUCmQKuKAaOsqE",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:51.155Z",
+        "updatedAt": "2019-06-23T06:05:43.136Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2019-06-23T06:05:43.136Z",
+        "firstPublishedAt": "2019-06-23T06:01:53.549Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Twitter"
+        },
+        "url": {
+          "en-US": "https://twitter.com/nathangloverAUS"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "twitter"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "5lzMxuCX84uYqmgGmU8iKU",
+        "type": "Entry",
+        "createdAt": "2019-06-23T06:01:51.502Z",
+        "updatedAt": "2019-06-23T11:00:02.109Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 44,
+        "publishedAt": "2019-06-23T11:00:02.109Z",
+        "firstPublishedAt": "2019-06-23T06:01:52.833Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 45,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "about"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Nathan"
+        },
+        "description": {
+          "en-US": "Maker | Creator | Innovator"
+        },
+        "roles": {
+          "en-US": [
+            "Maker 🔧",
+            "Innovator 🚀",
+            "DevOps Culture Injector 💉"
+          ]
+        },
+        "socialLinks": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4SrlLN9bt6Yew2UyGgM06a"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "114ApRkJZq640w8G2GwM8w"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4J6WFTjoMUCmQKuKAaOsqE"
+              }
+            }
+          ]
+        },
+        "profile": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6nf3rNaaVaUqYcoAcciSeC"
+            }
+          }
+        },
+        "aboutMe": {
+          "en-US": "I have a curious mind and enjoy exploring any and all fields of technology. Given a problem I am driven to design the best solution for any given situation with a healthy mix of old and cutting edge.\n\nI’ve recently taken a strong interest in __Ethereum Smart Contracts__ and have worked on a number of small projects building Distributed applications. I’m working hard to stay ahead of anything and everything that Blockchain based applications can offer us and have an unmatched enthusiasm about solving problems using distributed systems.\n\nMoving forward I am eager to develop more of a background in the __DevOps__ space by working along side other developers and supporting them by providing scalable and reliable infrastructure for them to deploy solutions to in an automated and repeatable manner."
+        },
+        "mediumUser": {
+          "en-US": "@t04glovern"
+        },
+        "projects": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6Y7EIx73nUCWuoIWcsuM00"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2GKNR2f4z6IwAg6a2MmKCc"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5paxSRHbAkmgMc4WSW8S66"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "6rkOXCpyvuekYIgy6U6gGu",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:42.645Z",
+        "updatedAt": "2019-06-23T10:49:13.234Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2019-06-23T10:49:13.234Z",
+        "firstPublishedAt": "2019-06-23T06:01:49.815Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Stubber logo"
+        },
+        "description": {
+          "en-US": "Stubber logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/6rkOXCpyvuekYIgy6U6gGu/d788c9685604e72ff24aac2970be2d32/stubber.png",
+            "details": {
+              "size": 76307,
+              "image": {
+                "width": 1459,
+                "height": 1408
+              }
+            },
+            "fileName": "stubber.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "3AorRmtWOsGQ4o8gK0YWKG",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:42.650Z",
+        "updatedAt": "2019-06-23T10:46:42.866Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2019-06-23T10:46:42.866Z",
+        "firstPublishedAt": "2019-06-23T06:01:47.892Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 25,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CatBox Logo"
+        },
+        "description": {
+          "en-US": "Logo for CatBox"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/3AorRmtWOsGQ4o8gK0YWKG/c29d4c9fb0807cd42da0ea6524f8f8f7/catbox.png",
+            "details": {
+              "size": 182066,
+              "image": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "fileName": "catbox.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "6nf3rNaaVaUqYcoAcciSeC",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:42.679Z",
+        "updatedAt": "2019-06-23T10:44:00.455Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2019-06-23T10:44:00.455Z",
+        "firstPublishedAt": "2019-06-23T06:01:48.531Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Nathan Glover"
+        },
+        "description": {
+          "en-US": "Nathan Glover"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/6nf3rNaaVaUqYcoAcciSeC/42a38089bc5416a19588f053202c416b/icon.png",
+            "details": {
+              "size": 648552,
+              "image": {
+                "width": 596,
+                "height": 602
+              }
+            },
+            "fileName": "icon.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "u3Um4zkMrAaQioyq4oSIW",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:43.153Z",
+        "updatedAt": "2019-06-23T10:54:54.638Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2019-06-23T10:54:54.638Z",
+        "firstPublishedAt": "2019-06-23T06:01:49.172Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "MyCity logo"
+        },
+        "description": {
+          "en-US": "MyCity logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/u3Um4zkMrAaQioyq4oSIW/c084d88d8559c99c75315f2e6328d2c0/mycity.png",
+            "details": {
+              "size": 11813,
+              "image": {
+                "width": 422,
+                "height": 417
+              }
+            },
+            "fileName": "mycity.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "0a64KmZ9pU02LLzJVMNmO9",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "createdAt": "2019-06-23T05:59:43Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedAt": "2019-06-23T05:59:43Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+  ]
+}
