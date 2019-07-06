@@ -25,7 +25,7 @@ export class CdkStack extends cdk.Stack {
         "cloudfront:CreateInvalidation",
       ],
       resources: [
-        `arn:aws:cloudfront::${cdk.Aws.ACCOUNT_ID}:distribution/*`
+        "*"
       ]
     });
 
@@ -75,13 +75,14 @@ export class CdkStack extends cdk.Stack {
       owner: "t04glovern",
       repo: "nathanglover-gatsby-portfolio",
       reportBuildStatus: true,
-      webhook: true,
+      webhook: true
     });
 
     //
     // CodeBuild - Build
     //
     const buildProject = new codebuild.Project(this, "nathanglover-gatsby-portfolio-build", {
+      badge: true,
       projectName: "nathanglover-gatsby-portfolio-build",
       buildSpec: codebuild.BuildSpec.fromSourceFilename("buildspec.yml"),
       source: gitHubSource,

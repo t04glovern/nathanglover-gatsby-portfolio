@@ -1,4 +1,4 @@
-# Nathan Glover: Portfolio
+# Nathan Glover: Portfolio ![badge](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZDZmem90SG9qYU91cjkzWFJVU0hVdkgyaG5JWktmdnh4NGV1SUVKNXBaeVR1TTZiMGNsblJRVkdpNXdzZlJjWmtFWEZyOWpEUlNBcnRFOUJqWDBjakU0PSIsIml2UGFyYW1ldGVyU3BlYyI6ImZPd1lOS2F5REo1ZGVjZHMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
 A portfolio site for Nathan Glover on Gatsby integrated with Contentful CMS.
 
