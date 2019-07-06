@@ -36,13 +36,21 @@ const plugins = [
   {
     resolve: 'gatsby-source-udemy',
     options: {
-      courses: [
-        '2057215',
-        '1672824',
-        '1627276',
-        '1572194',
-      ],
-    }
+      courses: ['2057215', '1672824', '1627276', '1572194'],
+    },
+  },
+  {
+    resolve: `gatsby-source-wordpress`,
+    options: {
+      // your wordpress source
+      baseUrl: `devopstar.com`,
+      protocol: `https`,
+      // is it hosted on wordpress.com, or self-hosted?
+      hostingWPCOM: false,
+      // does your site use the Advanced Custom Fields Plugin?
+      useACF: false,
+      includedRoutes: ['**/posts'],
+    },
   },
 ];
 

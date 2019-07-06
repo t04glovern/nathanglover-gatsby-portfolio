@@ -49,15 +49,25 @@ const EllipsisHeading = styled(Heading)`
   border-bottom: ${props => props.theme.colors.primary} 5px solid;
 `;
 
-const Post = ({ title, text, image, url, date, time }) => (
+const convertUnicode = input => {
+  return input
+    .replace('&#8211;', '-')
+    .replace('&#038;', '/')
+    .replace('<p>', '')
+    .replace('</p>', '');
+};
+
+const Post = ({ title, text, image, url, date }) => (
   <Card onClick={() => window.open(url, '_blank')} pb={4}>
     <EllipsisHeading m={3} p={1}>
-      {title}
+      {convertUnicode(title)}
     </EllipsisHeading>
-    {image && <CoverImage src={image} height="200px" alt={title} />}
-    <Text m={3}>{text}</Text>
+    {image && (
+      <CoverImage src={image} height="200px" alt={convertUnicode(title)} />
+    )}
+    <Text m={3}>{convertUnicode(text)}</Text>
     <ImageSubtitle bg="primaryLight" color="white" x="right" y="bottom" round>
-      {`${date} - ${Math.ceil(time)} min`}
+      {`${date}`}
     </ImageSubtitle>
   </Card>
 );
@@ -68,86 +78,64 @@ Post.propTypes = {
   image: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
-  time: PropTypes.number.isRequired,
 };
 
 const parsePost = postFromGraphql => {
-  const MEDIUM_CDN = 'https://cdn-images-1.medium.com/max/400';
-  const MEDIUM_URL = 'https://medium.com';
   const {
     id,
-    uniqueSlug,
-    createdAt,
+    excerpt,
+    date,
     title,
-    virtuals,
-    author,
+    // eslint-disable-next-line camelcase
+    jetpack_featured_media_url,
+    link,
   } = postFromGraphql;
-  const image =
-    virtuals.previewImage.imageId &&
-    `${MEDIUM_CDN}/${virtuals.previewImage.imageId}`;
   return {
     id,
     title,
-    time: virtuals.readingTime,
-    date: createdAt,
-    text: virtuals.subtitle,
-    image,
-    url: `${MEDIUM_URL}/${author.username}/${uniqueSlug}`,
+    date,
+    text: excerpt,
+    image: jetpack_featured_media_url,
+    url: link,
   };
 };
 
 const edgeToArray = data => data.edges.map(edge => edge.node);
 
-const Writing = () => (
+const Blogging = () => (
   <StaticQuery
     query={graphql`
-      query MediumPostQuery {
-        site {
-          siteMetadata {
-            isMediumUserDefined
-          }
-        }
-        allMediumPost(limit: 6, sort: { fields: createdAt, order: DESC }) {
+      {
+        allWordpressPost(limit: 8, sort: { fields: date, order: DESC }) {
           edges {
             node {
               id
-              uniqueSlug
+              excerpt
+              date(formatString: "DD MMM YYYY")
               title
-              createdAt(formatString: "MMM YYYY")
-              virtuals {
-                subtitle
-                readingTime
-                previewImage {
-                  imageId
-                }
-              }
-              author {
-                username
-              }
+              jetpack_featured_media_url
+              link
             }
           }
         }
       }
     `}
-    render={({ allMediumPost, site }) => {
-      const posts = edgeToArray(allMediumPost).map(parsePost);
-      const { isMediumUserDefined } = site.siteMetadata;
+    render={({ allWordpressPost }) => {
+      const posts = edgeToArray(allWordpressPost).map(parsePost);
       return (
-        isMediumUserDefined && (
-          <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="✍️" label="writing" />
-            <CardContainer minWidth="300px">
-              {posts.map(p => (
-                <Fade bottom>
-                  <Post key={p.id} {...p} />
-                </Fade>
-              ))}
-            </CardContainer>
-          </Section.Container>
-        )
+        <Section.Container id="blogging" Background={Background}>
+          <Section.Header name="Blogging" icon="✍️" label="blogging" />
+          <CardContainer minWidth="300px">
+            {posts.map(p => (
+              <Fade bottom>
+                <Post key={p.id} {...p} />
+              </Fade>
+            ))}
+          </CardContainer>
+        </Section.Container>
       );
     }}
   />
 );
 
-export default Writing;
+export default Blogging;

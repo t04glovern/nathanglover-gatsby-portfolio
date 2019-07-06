@@ -20,9 +20,9 @@ npm run setup
 
 This CLI will request 3 values:
 
-* Space ID
-* Content Delivery API - access token
-* Personal Access Token
+- Space ID
+- Content Delivery API - access token
+- Personal Access Token
 
 These 3 values are inside the `Settings section` > `API keys`.
 
@@ -45,8 +45,8 @@ The result will be stored inside the `public` folder, so you can upload to your 
 ### Push S3
 
 ```bash
-aws s3 mb s3://dev.nathanglover.com
-aws s3 sync public/ s3://dev.nathanglover.com
+aws s3 mb s3://nathanglover.com
+aws s3 sync public/ s3://nathanglover.com
 ```
 
 ## Google Analytics (Optional) 📈
@@ -55,4 +55,4 @@ This starter has the analytics plugin inside the `gatsby-config`, so the only ne
 
 ## Attribution 📝
 
-* [Gatsby Starter: Mate](https://github.com/EmaSuriano/gatsby-starter-mate)
+- [Gatsby Starter: Mate](https://github.com/EmaSuriano/gatsby-starter-mate)
