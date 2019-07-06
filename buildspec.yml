@@ -1,9 +1,6 @@
 version: 0.2
 
 env:
-  variables:
-    CLOUDFRONT_DIST_ID: E1H0DY0P2SKEYR
-    S3_BUCKET: nathanglover.com
   parameter-store:
     CONTENTFUL_SPACE_ID: /codebuild/nathanglover.com/contentful_space_id
     CONTENTFUL_ACCESS_TOKEN: /codebuild/nathanglover.com/contentful_access_token
