@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Heading, Text } from 'rebass';
+import { Heading } from 'rebass';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
@@ -75,8 +75,10 @@ const parseCourse = courseFromGraphql => {
     title,
     url,
     price,
+    // eslint-disable-next-line camelcase
     image_480x270,
   } = courseFromGraphql;
+  // eslint-disable-next-line camelcase
   const image = image_480x270;
   return {
     id,
