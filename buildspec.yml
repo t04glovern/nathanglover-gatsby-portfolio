@@ -1,0 +1,25 @@
+version: 0.2
+
+env:
+  variables:
+    CLOUDFRONT_DIST_ID: E1H0DY0P2SKEYR
+    S3_BUCKET: nathanglover.com
+  parameter-store:
+    CONTENTFUL_SPACE_ID: /codebuild/nathanglover.com/contentful_space_id
+    CONTENTFUL_ACCESS_TOKEN: /codebuild/nathanglover.com/contentful_access_token
+    GOOGLE_ANALYTICS_ID: /codebuild/nathanglover.com/google_analytics_id
+
+phases:
+  install:
+    commands:
+      - npm install -g gatsby
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - SPACE_ID=$CONTENTFUL_SPACE_ID ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN ANALYTICS_ID=$GOOGLE_ANALYTICS_ID npm run build
+  post_build:
+    commands:
+      - aws s3 sync public/ s3://$S3_BUCKET --delete --acl public-read
+      - aws cloudfront create-invalidation --distribution-id=$CLOUDFRONT_DIST_ID --paths "/*"

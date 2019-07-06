@@ -8,8 +8,7 @@
     "develop": "cleandir ./.cache && gatsby develop",
     "start": "npm run develop",
     "lint": "eslint ./src",
-    "setup": "node ./bin/setup.js",
-    "deploy": "aws s3 sync ./public/ s3://dev.nathanglover.com"
+    "setup": "node ./bin/setup.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,7 @@
     "PWA",
     "portfolio"
   ],
-  "author": "Ema Suriano",
+  "author": "Nathan Glover",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/t04glovern/nathanglover-gatsby-portfolio/issues"
