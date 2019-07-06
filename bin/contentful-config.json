@@ -12,7 +12,7 @@
         "id": "socialLink",
         "type": "ContentType",
         "createdAt": "2019-06-23T06:01:34.391Z",
-        "updatedAt": "2019-06-23T06:01:39.373Z",
+        "updatedAt": "2019-07-06T08:05:05.822Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2019-06-23T06:01:39.373Z",
+        "publishedVersion": 3,
+        "publishedAt": "2019-07-06T08:05:05.822Z",
         "firstPublishedAt": "2019-06-23T06:01:39.373Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -57,8 +57,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -68,8 +67,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -79,8 +77,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         }
@@ -98,7 +95,7 @@
         "id": "project",
         "type": "ContentType",
         "createdAt": "2019-06-23T06:01:34.392Z",
-        "updatedAt": "2019-06-23T06:01:38.591Z",
+        "updatedAt": "2019-07-06T08:05:07.607Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -106,8 +103,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2019-06-23T06:01:38.591Z",
+        "publishedVersion": 3,
+        "publishedAt": "2019-07-06T08:05:07.607Z",
         "firstPublishedAt": "2019-06-23T06:01:38.591Z",
         "createdBy": {
           "sys": {
@@ -123,8 +120,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -143,8 +140,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -154,8 +150,7 @@
           "type": "Date",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -165,8 +160,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -177,8 +171,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -188,8 +181,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -199,8 +191,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -210,8 +201,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         }
@@ -229,7 +219,7 @@
         "id": "about",
         "type": "ContentType",
         "createdAt": "2019-06-23T06:01:34.437Z",
-        "updatedAt": "2019-06-23T06:01:40.110Z",
+        "updatedAt": "2019-07-06T08:05:06.656Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -237,8 +227,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2019-06-23T06:01:40.110Z",
+        "publishedVersion": 3,
+        "publishedAt": "2019-07-06T08:05:06.656Z",
         "firstPublishedAt": "2019-06-23T06:01:40.110Z",
         "createdBy": {
           "sys": {
@@ -254,8 +244,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -274,8 +264,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -285,8 +274,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -296,14 +284,12 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Symbol",
-            "validations": [
-            ]
+            "validations": []
           }
         },
         {
@@ -312,17 +298,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "socialLink"
-                ]
+                "linkContentType": ["socialLink"]
               }
             ],
             "linkType": "Entry"
@@ -334,8 +317,7 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -346,8 +328,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -357,8 +338,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -368,17 +348,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "project"
-                ]
+                "linkContentType": ["project"]
               }
             ],
             "linkType": "Entry"
@@ -399,7 +376,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2019-06-23T06:01:39.508Z",
         "createdBy": {
           "sys": {
@@ -408,7 +385,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-06-23T06:01:42.016Z",
+        "updatedAt": "2019-07-06T08:05:09.139Z",
         "updatedBy": {
           "sys": {
             "id": "23y4Jh1fJROZF5LYCrpwZE",
@@ -457,7 +434,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2019-06-23T06:01:38.744Z",
         "createdBy": {
           "sys": {
@@ -466,7 +443,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-06-23T06:01:41.903Z",
+        "updatedAt": "2019-07-06T08:05:09.504Z",
         "updatedBy": {
           "sys": {
             "id": "23y4Jh1fJROZF5LYCrpwZE",
@@ -531,7 +508,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2019-06-23T06:01:40.276Z",
         "createdBy": {
           "sys": {
@@ -540,7 +517,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-06-23T06:01:41.398Z",
+        "updatedAt": "2019-07-06T08:05:09.934Z",
         "updatedBy": {
           "sys": {
             "id": "23y4Jh1fJROZF5LYCrpwZE",
@@ -618,7 +595,7 @@
         "id": "5paxSRHbAkmgMc4WSW8S66",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:50.463Z",
-        "updatedAt": "2019-06-23T10:50:29.887Z",
+        "updatedAt": "2019-07-06T08:05:23.098Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -626,8 +603,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 20,
-        "publishedAt": "2019-06-23T10:50:29.887Z",
+        "publishedVersion": 22,
+        "publishedAt": "2019-07-06T08:05:23.098Z",
         "firstPublishedAt": "2019-06-23T06:01:57.518Z",
         "createdBy": {
           "sys": {
@@ -643,8 +620,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 3,
-        "version": 21,
+        "publishedCounter": 4,
+        "version": 23,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -702,7 +679,7 @@
         "id": "2GKNR2f4z6IwAg6a2MmKCc",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:50.522Z",
-        "updatedAt": "2019-06-23T10:49:50.043Z",
+        "updatedAt": "2019-07-06T08:05:29.026Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -710,8 +687,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2019-06-23T10:49:50.043Z",
+        "publishedVersion": 25,
+        "publishedAt": "2019-07-06T08:05:29.026Z",
         "firstPublishedAt": "2019-06-23T06:01:56.811Z",
         "createdBy": {
           "sys": {
@@ -727,8 +704,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 24,
+        "publishedCounter": 3,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -786,7 +763,7 @@
         "id": "4SrlLN9bt6Yew2UyGgM06a",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:50.932Z",
-        "updatedAt": "2019-06-23T06:03:46.742Z",
+        "updatedAt": "2019-07-06T08:05:27.972Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -794,8 +771,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2019-06-23T06:03:46.742Z",
+        "publishedVersion": 5,
+        "publishedAt": "2019-07-06T08:05:27.972Z",
         "firstPublishedAt": "2019-06-23T06:01:52.110Z",
         "createdBy": {
           "sys": {
@@ -811,8 +788,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -852,7 +829,7 @@
         "id": "6Y7EIx73nUCWuoIWcsuM00",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:50.980Z",
-        "updatedAt": "2019-06-23T10:56:31.750Z",
+        "updatedAt": "2019-07-06T08:05:27.227Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -860,8 +837,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2019-06-23T10:56:31.750Z",
+        "publishedVersion": 17,
+        "publishedAt": "2019-07-06T08:05:27.227Z",
         "firstPublishedAt": "2019-06-23T06:01:55.656Z",
         "createdBy": {
           "sys": {
@@ -877,8 +854,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 16,
+        "publishedCounter": 3,
+        "version": 18,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -936,7 +913,7 @@
         "id": "114ApRkJZq640w8G2GwM8w",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:51.035Z",
-        "updatedAt": "2019-06-23T06:15:06.798Z",
+        "updatedAt": "2019-07-06T08:05:26.594Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -944,8 +921,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 12,
-        "publishedAt": "2019-06-23T06:15:06.798Z",
+        "publishedVersion": 14,
+        "publishedAt": "2019-07-06T08:05:26.594Z",
         "firstPublishedAt": "2019-06-23T06:01:54.323Z",
         "createdBy": {
           "sys": {
@@ -961,8 +938,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 13,
+        "publishedCounter": 3,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1002,7 +979,7 @@
         "id": "4J6WFTjoMUCmQKuKAaOsqE",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:51.155Z",
-        "updatedAt": "2019-06-23T06:05:43.136Z",
+        "updatedAt": "2019-07-06T08:05:25.330Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1010,8 +987,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2019-06-23T06:05:43.136Z",
+        "publishedVersion": 5,
+        "publishedAt": "2019-07-06T08:05:25.330Z",
         "firstPublishedAt": "2019-06-23T06:01:53.549Z",
         "createdBy": {
           "sys": {
@@ -1027,8 +1004,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1068,7 +1045,7 @@
         "id": "5lzMxuCX84uYqmgGmU8iKU",
         "type": "Entry",
         "createdAt": "2019-06-23T06:01:51.502Z",
-        "updatedAt": "2019-06-23T11:00:02.109Z",
+        "updatedAt": "2019-07-06T09:29:25.550Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1076,8 +1053,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 44,
-        "publishedAt": "2019-06-23T11:00:02.109Z",
+        "publishedVersion": 48,
+        "publishedAt": "2019-07-06T09:29:25.550Z",
         "firstPublishedAt": "2019-06-23T06:01:52.833Z",
         "createdBy": {
           "sys": {
@@ -1093,8 +1070,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 8,
-        "version": 45,
+        "publishedCounter": 10,
+        "version": 49,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1118,11 +1095,7 @@
           "en-US": "Maker | Creator | Innovator"
         },
         "roles": {
-          "en-US": [
-            "Maker 🔧",
-            "Innovator 🚀",
-            "DevOps Culture Injector 💉"
-          ]
+          "en-US": ["Maker 🔧", "Innovator 🚀", "DevOps Culture Injector 💉"]
         },
         "socialLinks": {
           "en-US": [
@@ -1186,8 +1159,190 @@
                 "linkType": "Entry",
                 "id": "5paxSRHbAkmgMc4WSW8S66"
               }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1g2kYwNLaAn2jM3n9qFqTd"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1tG18k7bs7JUMONVwrk7bY"
+              }
             }
           ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "1g2kYwNLaAn2jM3n9qFqTd",
+        "type": "Entry",
+        "createdAt": "2019-07-06T08:55:32.512Z",
+        "updatedAt": "2019-07-06T09:25:42.721Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2019-07-06T09:25:42.721Z",
+        "firstPublishedAt": "2019-07-06T09:03:42.595Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "AgDex"
+        },
+        "publishedDate": {
+          "en-US": "2018-07-29T00:00+00:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "HVOCgsqDiQdfufUoicgKB"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/t04glovern/agridex"
+        },
+        "description": {
+          "en-US": "AgDex, our solution developed during AgHack, targets the multi-billion dollar Australian livestock industry by tracking individual animals and gathering critical information vital for efficient and effective herd management"
+        },
+        "projectUrl": {
+          "en-US": "https://github.com/t04glovern/agridex/blob/master/assets/aghack-agdex-dpird-deck.pdf"
+        },
+        "type": {
+          "en-US": "Hackathon"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "1tG18k7bs7JUMONVwrk7bY",
+        "type": "Entry",
+        "createdAt": "2019-07-06T09:05:51.276Z",
+        "updatedAt": "2019-07-06T09:25:54.995Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2019-07-06T09:25:54.995Z",
+        "firstPublishedAt": "2019-07-06T09:22:12.431Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Ballm.AR"
+        },
+        "publishedDate": {
+          "en-US": "2017-08-19T00:00+00:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7MuLxVSi4ric2BO3Ns3neF"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/t04glovern/BallmAR"
+        },
+        "description": {
+          "en-US": "A First Responder System You Can Get Excited About"
+        },
+        "projectUrl": {
+          "en-US": "https://github.com/t04glovern/BallmAR/blob/master/ballmar-pitch.pdf"
+        },
+        "type": {
+          "en-US": "Hackathon"
         }
       }
     }
@@ -1205,147 +1360,7 @@
         "id": "6rkOXCpyvuekYIgy6U6gGu",
         "type": "Asset",
         "createdAt": "2019-06-23T06:01:42.645Z",
-        "updatedAt": "2019-06-23T10:49:13.234Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 10,
-        "publishedAt": "2019-06-23T10:49:13.234Z",
-        "firstPublishedAt": "2019-06-23T06:01:49.815Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 11,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Stubber logo"
-        },
-        "description": {
-          "en-US": "Stubber logo"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/mzbnk5hiuv68/6rkOXCpyvuekYIgy6U6gGu/d788c9685604e72ff24aac2970be2d32/stubber.png",
-            "details": {
-              "size": 76307,
-              "image": {
-                "width": 1459,
-                "height": 1408
-              }
-            },
-            "fileName": "stubber.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "mzbnk5hiuv68"
-          }
-        },
-        "id": "3AorRmtWOsGQ4o8gK0YWKG",
-        "type": "Asset",
-        "createdAt": "2019-06-23T06:01:42.650Z",
-        "updatedAt": "2019-06-23T10:46:42.866Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 24,
-        "publishedAt": "2019-06-23T10:46:42.866Z",
-        "firstPublishedAt": "2019-06-23T06:01:47.892Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 25,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "23y4Jh1fJROZF5LYCrpwZE"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "CatBox Logo"
-        },
-        "description": {
-          "en-US": "Logo for CatBox"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/mzbnk5hiuv68/3AorRmtWOsGQ4o8gK0YWKG/c29d4c9fb0807cd42da0ea6524f8f8f7/catbox.png",
-            "details": {
-              "size": 182066,
-              "image": {
-                "width": 1024,
-                "height": 1024
-              }
-            },
-            "fileName": "catbox.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "mzbnk5hiuv68"
-          }
-        },
-        "id": "6nf3rNaaVaUqYcoAcciSeC",
-        "type": "Asset",
-        "createdAt": "2019-06-23T06:01:42.679Z",
-        "updatedAt": "2019-06-23T10:44:00.455Z",
+        "updatedAt": "2019-07-06T08:05:18.703Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1354,8 +1369,8 @@
           }
         },
         "publishedVersion": 13,
-        "publishedAt": "2019-06-23T10:44:00.455Z",
-        "firstPublishedAt": "2019-06-23T06:01:48.531Z",
+        "publishedAt": "2019-07-06T08:05:18.703Z",
+        "firstPublishedAt": "2019-06-23T06:01:49.815Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1382,6 +1397,146 @@
       },
       "fields": {
         "title": {
+          "en-US": "Stubber logo"
+        },
+        "description": {
+          "en-US": "Stubber logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/6rkOXCpyvuekYIgy6U6gGu/d0927e5f5a33043d92f52fc200ba5867/stubber.png",
+            "details": {
+              "size": 76307,
+              "image": {
+                "width": 1459,
+                "height": 1408
+              }
+            },
+            "fileName": "stubber.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "3AorRmtWOsGQ4o8gK0YWKG",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:42.650Z",
+        "updatedAt": "2019-07-06T08:05:21.004Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 27,
+        "publishedAt": "2019-07-06T08:05:21.004Z",
+        "firstPublishedAt": "2019-06-23T06:01:47.892Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 28,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CatBox Logo"
+        },
+        "description": {
+          "en-US": "Logo for CatBox"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/3AorRmtWOsGQ4o8gK0YWKG/4b7f02d72a4cf5a15fe09b9209e88bd3/catbox.png",
+            "details": {
+              "size": 182066,
+              "image": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "fileName": "catbox.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "6nf3rNaaVaUqYcoAcciSeC",
+        "type": "Asset",
+        "createdAt": "2019-06-23T06:01:42.679Z",
+        "updatedAt": "2019-07-06T08:05:20.428Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 16,
+        "publishedAt": "2019-07-06T08:05:20.428Z",
+        "firstPublishedAt": "2019-06-23T06:01:48.531Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 17,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
           "en-US": "Nathan Glover"
         },
         "description": {
@@ -1389,7 +1544,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/mzbnk5hiuv68/6nf3rNaaVaUqYcoAcciSeC/42a38089bc5416a19588f053202c416b/icon.png",
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/6nf3rNaaVaUqYcoAcciSeC/0ec4e8d1d6734fda4217d84abf3b1094/icon.png",
             "details": {
               "size": 648552,
               "image": {
@@ -1415,7 +1570,7 @@
         "id": "u3Um4zkMrAaQioyq4oSIW",
         "type": "Asset",
         "createdAt": "2019-06-23T06:01:43.153Z",
-        "updatedAt": "2019-06-23T10:54:54.638Z",
+        "updatedAt": "2019-07-06T08:05:19.385Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1423,8 +1578,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 10,
-        "publishedAt": "2019-06-23T10:54:54.638Z",
+        "publishedVersion": 13,
+        "publishedAt": "2019-07-06T08:05:19.385Z",
         "firstPublishedAt": "2019-06-23T06:01:49.172Z",
         "createdBy": {
           "sys": {
@@ -1440,8 +1595,8 @@
             "id": "23y4Jh1fJROZF5LYCrpwZE"
           }
         },
-        "publishedCounter": 2,
-        "version": 11,
+        "publishedCounter": 3,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1459,7 +1614,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/mzbnk5hiuv68/u3Um4zkMrAaQioyq4oSIW/c084d88d8559c99c75315f2e6328d2c0/mycity.png",
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/u3Um4zkMrAaQioyq4oSIW/d94cb9703f94a7a56de8c0aa90341084/mycity.png",
             "details": {
               "size": 11813,
               "image": {
@@ -1468,6 +1623,146 @@
               }
             },
             "fileName": "mycity.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "HVOCgsqDiQdfufUoicgKB",
+        "type": "Asset",
+        "createdAt": "2019-07-06T08:59:39.174Z",
+        "updatedAt": "2019-07-06T09:00:25.020Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2019-07-06T09:00:25.020Z",
+        "firstPublishedAt": "2019-07-06T09:00:25.020Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "AgDex Logo"
+        },
+        "description": {
+          "en-US": "Logo for AgDex"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/HVOCgsqDiQdfufUoicgKB/e197007eb4804feefbca3ae060de1f12/agdex.png",
+            "details": {
+              "size": 5521,
+              "image": {
+                "width": 189,
+                "height": 189
+              }
+            },
+            "fileName": "agdex.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "mzbnk5hiuv68"
+          }
+        },
+        "id": "7MuLxVSi4ric2BO3Ns3neF",
+        "type": "Asset",
+        "createdAt": "2019-07-06T09:06:57.094Z",
+        "updatedAt": "2019-07-06T09:07:49.227Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2019-07-06T09:07:49.227Z",
+        "firstPublishedAt": "2019-07-06T09:07:49.227Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "23y4Jh1fJROZF5LYCrpwZE"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ballm.AR Logo"
+        },
+        "description": {
+          "en-US": "Logo for Ballm.AR"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/mzbnk5hiuv68/7MuLxVSi4ric2BO3Ns3neF/ace282f597624c9268bfb3e89c2fda85/Ballm.AR.png",
+            "details": {
+              "size": 600189,
+              "image": {
+                "width": 756,
+                "height": 734
+              }
+            },
+            "fileName": "Ballm.AR.png",
             "contentType": "image/png"
           }
         }
@@ -1520,8 +1815,6 @@
       }
     }
   ],
-  "webhooks": [
-  ],
-  "roles": [
-  ]
+  "webhooks": [],
+  "roles": []
 }

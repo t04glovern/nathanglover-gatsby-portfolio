@@ -2,11 +2,15 @@ const contentful = require('contentful');
 const manifestConfig = require('./manifest-config');
 require('dotenv').config();
 
-const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID } = process.env;
+const {
+  CONTENTFUL_ACCESS_TOKEN,
+  CONTENTFUL_SPACE_ID,
+  GOOGLE_ANALYTICS_ID,
+} = process.env;
 
 const client = contentful.createClient({
-  space: SPACE_ID,
-  accessToken: ACCESS_TOKEN,
+  space: CONTENTFUL_SPACE_ID,
+  accessToken: CONTENTFUL_ACCESS_TOKEN,
 });
 
 const getAboutEntry = entry => entry.sys.contentType.sys.id === 'about';
@@ -27,8 +31,8 @@ const plugins = [
   {
     resolve: 'gatsby-source-contentful',
     options: {
-      spaceId: SPACE_ID,
-      accessToken: ACCESS_TOKEN,
+      spaceId: CONTENTFUL_SPACE_ID,
+      accessToken: CONTENTFUL_ACCESS_TOKEN,
     },
   },
   'gatsby-transformer-remark',
@@ -64,11 +68,11 @@ module.exports = client.getEntries().then(entries => {
     },
   });
 
-  if (ANALYTICS_ID) {
+  if (GOOGLE_ANALYTICS_ID) {
     plugins.push({
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: ANALYTICS_ID,
+        trackingId: GOOGLE_ANALYTICS_ID,
       },
     });
   }
