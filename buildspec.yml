@@ -1,14 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    CLOUDFRONT_DIST_ID: ""
-    S3_BUCKET: nathanglover.com
-  parameter-store:
-    CONTENTFUL_SPACE_ID: /CodeBuild/nathanglover.com/contentful_space_id
-    CONTENTFUL_ACCESS_TOKEN: /CodeBuild/nathanglover.com/contentful_access_token
-    GOOGLE_ANALYTICS_ID: /CodeBuild/nathanglover.com/google_analytics_id
-
 phases:
   install:
     runtime-versions:
