@@ -1,11 +1,5 @@
 version: 0.2
 
-env:
-  parameter-store:
-    CONTENTFUL_SPACE_ID: /codebuild/nathanglover.com/contentful_space_id
-    CONTENTFUL_ACCESS_TOKEN: /codebuild/nathanglover.com/contentful_access_token
-    GOOGLE_ANALYTICS_ID: /codebuild/nathanglover.com/google_analytics_id
-
 phases:
   install:
     commands:
