@@ -34,6 +34,7 @@ export class CdkStack extends cdk.Stack {
         "s3:*",
       ],
       resources: [
+        "arn:aws:s3:::nathanglover.com",
         "arn:aws:s3:::nathanglover.com/*"
       ]
     });
