@@ -46,7 +46,9 @@ The result will be stored inside the `public` folder, so you can upload to your 
 
 ```bash
 aws s3 mb s3://nathanglover.com
-aws s3 sync public/ s3://nathanglover.com
+aws s3 sync public/ s3://nathanglover.com --delete --acl public-read
+
+aws cloudfront create-invalidation --distribution-id=$CLOUDFRONT_DIST_ID --paths "/*"
 ```
 
 ## Google Analytics (Optional) 📈

@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@aws-cdk/aws-codebuild": "^0.37.0",
+    "@aws-cdk/aws-iam": "^0.37.0",
+    "@aws-cdk/aws-ssm": "^0.37.0",
     "@aws-cdk/core": "^0.37.0"
   }
 }

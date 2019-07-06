@@ -11,16 +11,16 @@
 ```bash
 aws ssm put-parameter \
     --name "/CodeBuild/nathanglover.com/contentful_space_id" \
-    --type "SecureString" \
+    --type "String" \
     --value "xxxxxxxxxxxxx"
 
 aws ssm put-parameter \
     --name "/CodeBuild/nathanglover.com/contentful_access_token" \
-    --type "SecureString" \
+    --type "String" \
     --value "xxxxxxxxxxxxx"
 
 aws ssm put-parameter \
     --name "/CodeBuild/nathanglover.com/google_analytics_id" \
-    --type "SecureString" \
+    --type "String" \
     --value "xxxxxxxxxxxxx"
 ```

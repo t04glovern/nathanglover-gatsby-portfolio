@@ -38,19 +38,33 @@ export class CdkStack extends cdk.Stack {
       ]
     });
 
-    const contentful_space_id_param = ssm.StringParameter.fromSecureStringParameterAttributes(this, "param-contentful-space-id", {
+    const contentful_space_id_param = ssm.StringParameter.fromStringParameterAttributes(this, "param-contentful-space-id", {
       parameterName: "/CodeBuild/nathanglover.com/contentful_space_id",
       version: 1
     });
 
-    const contentful_access_token_param = ssm.StringParameter.fromSecureStringParameterAttributes(this, "param-contentful-access-token", {
+    const contentful_access_token_param = ssm.StringParameter.fromStringParameterAttributes(this, "param-contentful-access-token", {
       parameterName: "/CodeBuild/nathanglover.com/contentful_access_token",
       version: 1
     });
 
-    const google_analytics_id_param = ssm.StringParameter.fromSecureStringParameterAttributes(this, "param-google-analytics-id", {
+    const google_analytics_id_param = ssm.StringParameter.fromStringParameterAttributes(this, "param-google-analytics-id", {
       parameterName: "/CodeBuild/nathanglover.com/google_analytics_id",
       version: 1
+    });
+
+    const ssm_policy = new iam.PolicyStatement({
+      actions: [
+        "ssm:DescribeParameters",
+        "ssm:GetParameter",
+        "ssm:GetParameters",
+        "ssm:GetParameterHistory",
+      ],
+      resources: [
+        contentful_space_id_param.parameterArn,
+        contentful_access_token_param.parameterArn,
+        google_analytics_id_param.parameterArn,
+      ]
     });
 
     //
@@ -75,15 +89,15 @@ export class CdkStack extends cdk.Stack {
         environmentVariables: {
           CONTENTFUL_SPACE_ID: {
             type: codebuild.BuildEnvironmentVariableType.PARAMETER_STORE,
-            value: contentful_space_id_param
+            value: contentful_space_id_param.parameterName
           },
           CONTENTFUL_ACCESS_TOKEN: {
             type: codebuild.BuildEnvironmentVariableType.PARAMETER_STORE,
-            value: contentful_access_token_param
+            value: contentful_access_token_param.parameterName
           },
           GOOGLE_ANALYTICS_ID: {
             type: codebuild.BuildEnvironmentVariableType.PARAMETER_STORE,
-            value: google_analytics_id_param
+            value: google_analytics_id_param.parameterName
           },
           CLOUDFRONT_DIST_ID: {
             type: codebuild.BuildEnvironmentVariableType.PLAINTEXT,
@@ -99,5 +113,7 @@ export class CdkStack extends cdk.Stack {
     buildProject.addToRolePolicy(log_policy);
     buildProject.addToRolePolicy(cloudfront_policy);
     buildProject.addToRolePolicy(s3_policy);
+    buildProject.addToRolePolicy(ssm_policy);
+
   }
 }
