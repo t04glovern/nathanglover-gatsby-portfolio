@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/nathanglover
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nathanglover.com
+  * I am nathanglover (https://keybase.io/nathanglover) on keybase.
+  * I have a public key with fingerprint D64A 1F5A 05BD 8D11 DF51  AB91 0983 1DFD 1F77 86AE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010194c105539c1221be8fc61a4619b6182a9b34a026b8b351e9befd6f680844f1200a",
+      "fingerprint": "d64a1f5a05bd8d11df51ab9109831dfd1f7786ae",
+      "host": "keybase.io",
+      "key_id": "09831dfd1f7786ae",
+      "kid": "010194c105539c1221be8fc61a4619b6182a9b34a026b8b351e9befd6f680844f1200a",
+      "uid": "5511e0294fe1d70d105d7a8a812dd119",
+      "username": "nathanglover"
+    },
+    "merkle_root": {
+      "ctime": 1562473491,
+      "hash_meta": "ce98e1ae9055042922d08dcda8b7070d1fb02b61884bf86dfd735c8884817781",
+      "seqno": 5707573
+    },
+    "revoke": {
+      "sig_ids": [
+        "b333319702e20e36ba6144f6b0c954cf0d1d8267a1b416e24cb2c97740c0c7670f"
+      ]
+    },
+    "service": {
+      "hostname": "nathanglover.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1562473617,
+  "expire_in": 157680000,
+  "prev": "6ca2da8ee65f149625b729d7471055538d75674032c156519c3b2f6ef9cf7284",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMK1AnicrVNbaFxFGN6kVZOAUFqUQmNrjheQhnVmzlz3oYg0pYhRqQiGblnmdnaP
+ye7ZnHOyWrYpYkXNQ0mjUFovSNF4CbW0fZD6oNS24kqqmNaKuk3RWjTxQkUpvolz
+oiKij87L4Z/z/d//fd/MnLp2Wa6n46LcNHrwysTFjtkTO8dy2/rSqaanIrPdKzS9
+Ybv0sSPGJmlpODRewQMQQIE1BIT4QkOEoLI80BRKTKFQFHIkhfKxBIgqrnwCrVA2
+MDSgHHCMA4gAkF6/F4S1so3rcVhLHa2hWMKASECU4QZCExAolYBAcN8VBgaMcSqt
+a6xESdbhxCmZ2HwYuT1XlP6Q92/8/6x7bImOEAgtQAIHFhoGjOM1THLJITJOvsiA
+iY1rsmoduibTiqyVR6KGjb3xfq9q4+ERW4qjKM0C1mmYwSChCDMfC+hMyqRSqtpU
+um5tBbdQWuG0A4wEQgZwo43kioFsdqAAyhxwrAJOnXvmE81dyaFLATotiR2tRV6B
+ODxhvlMQ20Y0bLPhSVh20SVeYaunfLegYABZBKxPlaTQOacKaEGwDtwowxFlEioM
+qUVYK6QFYxhooBllIPC2jWfD4kaol8izs/qPDPI6qjpV9ThKIx2NuL+VNK0nhSyb
+dHs9gz9sVelPopIKa8bdFtfhepMwqrmsHPKfsVHI+j37SD2MbSnMEIS5k3Mrm2Mb
+jpJqiVxo1lISQCwoIoohYRhm2a0gPjeMUGfGR9pxEii0r1BAbSB0wBDHf+eIqdMp
+y47TpeeMjcXWGz9xvLg819GTu/qqzuwZ5Xq6V/z1uOrTXbnJnzb+/NTmw3cunl/+
+6TuPHTm39svjuxY/Wyh+fOiad215YeP8529Ozb0+eFNn8dfWvYXbbqgWn/v+bLNv
+6/TaCwcO3zU933ss3zmLJwdm9uP8+FDvynWTn1z66tzeW4e27Lnw+H3rZ7/beXD+
+7Ogqu8802gMbDsG5L+6eaIn2jx9+/c0vt9w/+tqumT3t64vtt19e172vUDjzUeut
+lbdfd2rzkyePPH3gDE1rC6ePPvDB7t03z8xdKv4wuGzFycu/Vb7d0Xvjeq9v8HRr
+TeRfeaH10OjeR59v5qfwg1G3Z3hrxysTW+4ps1VvrEZN2Frdtf/8q+91vTiQf3/D
+5Wfv6HmivGloLtKLL605+kz72O/sK4Vr
+=qy/g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nathanglover
+
+==================================================================
