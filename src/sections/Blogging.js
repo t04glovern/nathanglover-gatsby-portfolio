@@ -52,6 +52,7 @@ const EllipsisHeading = styled(Heading)`
 const convertUnicode = input => {
   return input
     .replace('&#8211;', '-')
+    .replace('&#8211;', '-')
     .replace('&#038;', '/')
     .replace('&#8217;', "'")
     .replace('<p>', '')
