@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install -g gatsby
+      - npm install -g gatsby@2.15.22
   pre_build:
     commands:
       - npm install

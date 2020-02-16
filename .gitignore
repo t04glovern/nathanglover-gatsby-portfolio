@@ -63,6 +63,7 @@ typings/
 
 .cache/
 public/
+!public/keybase.txt
 .gatsby-context.js
 netlify.toml
 

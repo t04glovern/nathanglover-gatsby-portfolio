@@ -50,8 +50,8 @@ inquirer
 
     const configFilePath = path.resolve(__dirname, '..', '.env');
     const envData = envfile.stringifySync({
-      SPACE_ID: spaceId,
-      ACCESS_TOKEN: deliveryToken,
+      CONTENTFUL_SPACE_ID: spaceId,
+      CONTENTFUL_ACCESS_TOKEN: deliveryToken,
     });
 
     writeFileSync(configFilePath, envData);

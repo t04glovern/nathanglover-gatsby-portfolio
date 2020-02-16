@@ -82,55 +82,37 @@ Post.propTypes = {
   date: PropTypes.string.isRequired,
 };
 
-const parsePost = postFromGraphql => {
-  const {
-    id,
-    excerpt,
-    date,
-    title,
-    // eslint-disable-next-line camelcase
-    jetpack_featured_media_url,
-    link,
-  } = postFromGraphql;
-  return {
-    id,
-    title,
-    date,
-    text: excerpt,
-    image: jetpack_featured_media_url,
-    url: link,
-  };
-};
-
 const edgeToArray = data => data.edges.map(edge => edge.node);
 
 const Blogging = () => (
   <StaticQuery
     query={graphql`
       {
-        allWordpressPost(limit: 8, sort: { fields: date, order: DESC }) {
+        allDevArticles(limit: 6, sort: {fields: article___published_at, order: DESC}) {
           edges {
             node {
               id
-              excerpt
-              date(formatString: "DD MMM YYYY")
-              title
-              jetpack_featured_media_url
-              link
+              article {
+                description
+                published_at(formatString: "DD MMM YYYY")
+                title
+                cover_image
+                url
+              }
             }
           }
         }
       }
     `}
-    render={({ allWordpressPost }) => {
-      const posts = edgeToArray(allWordpressPost).map(parsePost);
+    render={({ allDevArticles }) => {
+      const posts = edgeToArray(allDevArticles);
       return (
         <Section.Container id="blogging" Background={Background}>
           <Section.Header name="Blogging" icon="✍️" label="blogging" />
-          <CardContainer minWidth="300px">
+          <CardContainer minWidth="360px">
             {posts.map(p => (
               <Fade bottom>
-                <Post key={p.id} {...p} />
+                <Post key={p.id} title={p.article.title} text={p.article.description} image={p.article.cover_image} url={p.article.url} date={p.article.published_at} />
               </Fade>
             ))}
           </CardContainer>
