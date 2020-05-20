@@ -88,7 +88,10 @@ const Blogging = () => (
   <StaticQuery
     query={graphql`
       {
-        allDevArticles(limit: 6, sort: {fields: article___published_at, order: DESC}) {
+        allDevArticles(
+          limit: 3
+          sort: { fields: article___published_at, order: DESC }
+        ) {
           edges {
             node {
               id
@@ -112,7 +115,14 @@ const Blogging = () => (
           <CardContainer minWidth="360px">
             {posts.map(p => (
               <Fade bottom>
-                <Post key={p.id} title={p.article.title} text={p.article.description} image={p.article.cover_image} url={p.article.url} date={p.article.published_at} />
+                <Post
+                  key={p.id}
+                  title={p.article.title}
+                  text={p.article.description}
+                  image={p.article.cover_image}
+                  url={p.article.url}
+                  date={p.article.published_at}
+                />
               </Fade>
             ))}
           </CardContainer>
