@@ -2,7 +2,10 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 14
     commands:
+      - set -e
       - npm install -g gatsby@2.15.22
   pre_build:
     commands:
@@ -10,7 +13,5 @@ phases:
   build:
     commands:
       - npm run build
-  post_build:
-    commands:
       - aws s3 sync "./public/" s3://$S3_BUCKET --delete --acl public-read
       - aws cloudfront create-invalidation --distribution-id=$CLOUDFRONT_DIST_ID --paths "/*"
