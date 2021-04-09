@@ -6,7 +6,6 @@ phases:
       nodejs: 14
     commands:
       - set -e
-      - npm install -g gatsby@2.15.22
   pre_build:
     commands:
       - npm install
