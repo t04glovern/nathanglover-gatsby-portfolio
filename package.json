@@ -43,7 +43,7 @@
     "gatsby-source-contentful": "2.1.79",
     "gatsby-source-dev": "^0.1.4",
     "gatsby-source-udemy": "^1.0.3",
-    "gatsby-transformer-remark": "^2.6.48",
+    "gatsby-transformer-remark": "^5.25.1",
     "inquirer": "^7.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
