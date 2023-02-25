@@ -75,7 +75,12 @@ export class CdkStack extends cdk.Stack {
       owner: "t04glovern",
       repo: "nathanglover-gatsby-portfolio",
       reportBuildStatus: true,
-      webhook: true
+      webhook: true,
+      webhookFilters: [
+        codebuild.FilterGroup
+          .inEventOf(codebuild.EventAction.PUSH)
+          .andBranchIs('master')
+      ],
     });
 
     //

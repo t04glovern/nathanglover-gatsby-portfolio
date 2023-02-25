@@ -6,6 +6,12 @@ A portfolio site for Nathan Glover on Gatsby integrated with Contentful CMS.
 
 ## How to start
 
+This project needs Node.js 14
+
+```bash
+nvm use 14.20.0
+```
+
 If you never used Gatsby before, I highly recommend you to [Set up your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)!
 
 ```bash
