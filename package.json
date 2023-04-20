@@ -40,7 +40,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-styled-components": "^3.1.18",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-contentful": "2.1.79",
+    "gatsby-source-contentful": "8.9.1",
     "gatsby-source-dev": "^0.1.4",
     "gatsby-source-udemy": "^1.0.3",
     "gatsby-transformer-remark": "^2.6.48",
